@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="923.13336"
+   height="923.6579"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="circle.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient11664">
+      <stop
+         id="stop11666"
+         offset="0"
+         style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop
+         id="stop11668"
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient11648">
+      <stop
+         id="stop11650"
+         offset="0"
+         style="stop-color:#008400;stop-opacity:1;" />
+      <stop
+         id="stop11652"
+         offset="1"
+         style="stop-color:#0000ff;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10596">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop10598" />
+      <stop
+         style="stop-color:#008400;stop-opacity:1;"
+         offset="1"
+         id="stop10600" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11664"
+       id="linearGradient11695"
+       gradientUnits="userSpaceOnUse"
+       x1="550.24164"
+       y1="896.71173"
+       x2="811.84503"
+       y2="528.58038" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10596"
+       id="linearGradient11697"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.74509804,0,0,0.74509804,51.680676,37.520893)"
+       x1="81.16111"
+       y1="1044.717"
+       x2="32.968468"
+       y2="235.25763" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient11648"
+       id="linearGradient11699"
+       gradientUnits="userSpaceOnUse"
+       x1="333.44196"
+       y1="6.1518588"
+       x2="829.71875"
+       y2="360.43759" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="108.58127"
+     inkscape:cy="288.66224"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:object-nodes="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(53.117996,-2.070766)">
+    <g
+       id="g11684"
+       transform="matrix(0.5,0.8660254,-0.8660254,0.5,656.38761,-89.739172)">
+      <path
+         id="path2816"
+         d="m 638.8125,507.1875 c -3.20175,79.66408 -42.87134,156.59544 -105.81491,205.37119 -65.25219,51.85486 -154.75083,71.10437 -235.79057,51.39976 -4.86632,-1.12695 -9.69909,-2.40512 -14.48827,-3.83345 13.52105,-23.41654 27.04163,-46.83335 40.5625,-70.25 -54.125,21.4375 -108.25,42.875 -162.375,64.3125 8.51042,57.57292 17.02083,115.14583 25.53125,172.71875 15.75602,-27.3046 31.54731,-54.58904 47.28125,-81.90625 91.17117,33.58548 195.90169,29.4344 283.9375,-11.78125 93.30394,-42.91606 167.19422,-125.44321 198.96701,-223.33149 11.21242,-33.99168 17.38069,-69.64118 18.34549,-105.48101 -15.93611,12.64758 -31.88323,25.28134 -47.8125,37.9375 -16.06285,-12.74182 -32.14751,-25.45623 -48.21875,-38.1875 -0.0417,1.01042 -0.0833,2.02083 -0.125,3.03125 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:url(#linearGradient11695);fill-opacity:1;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans" />
+      <path
+         id="path2822"
+         d="m 120.28125,206.125 c 0.90316,3.94168 -6.2941,6.3487 -8.72405,9.7946 C 37.720208,281.76802 -8.0081746,378.08082 -11.78125,477.25 c -4.706435,104.02823 36.055916,209.01261 110.02757,281.87132 20.16855,20.13498 42.90139,37.91481 67.19118,52.90993 -2.9856,-20.14484 -5.92018,-40.29753 -8.9375,-60.4375 19.04389,-7.57255 38.10553,-15.10076 57.15625,-22.65625 C 146.6943,687.57308 99.233482,616.38328 87.018059,538.4642 73.662075,459.37068 97.410424,375.50089 149.2639,314.60571 c 6.553,-7.78997 13.5331,-15.16515 20.89235,-22.16821 13.47435,23.46401 27.04936,46.87061 40.5625,70.3125 8.5,-57.57292 17,-115.14583 25.5,-172.71875 -54.125,-21.4375 -108.25,-42.875 -162.375,-64.3125 15.479167,26.80208 30.95833,53.60417 46.4375,80.40625 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:url(#linearGradient11697);fill-opacity:1;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans" />
+      <path
+         id="path2824"
+         d="m 354.3125,120.3125 c -59.35543,0.89155 -118.3974,16.4355 -170.4375,44.625 18.91529,7.50344 37.84147,14.97966 56.75,22.5 -3.03789,20.27542 -5.99368,40.56347 -9,60.84375 66.37208,-35.70175 147.66028,-42.38721 219.05362,-17.80504 72.7315,24.2334 133.58559,80.27126 164.47763,150.33629 6.85114,15.47691 12.27736,31.55068 16.3125,47.96875 -27.05208,0 -54.10417,0 -81.15625,0 45.61458,36.14583 91.22917,72.29167 136.84375,108.4375 45.60417,-36.14583 91.20833,-72.29167 136.8125,-108.4375 -31.5,0 -63,0 -94.5,0 C 712.65528,331.72867 655.64043,242.38979 574.36346,186.80847 510.20878,142.41519 432.33065,118.8862 354.3125,120.3125 z"
+         style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:url(#linearGradient11699);fill-opacity:1;stroke:none;stroke-width:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans" />
+    </g>
+  </g>
+</svg>

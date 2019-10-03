@@ -1,0 +1,81 @@
+﻿.circle
+{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.dial
+{
+    width: 800px;
+}
+.dial ul
+{
+    position: relative;
+    padding: 50%;
+    -moz-box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    list-style: none;
+    background-image: url('../img/circle_0.svg');
+}
+.slice
+{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+.q1 div, .q2 div, .q3 div, .q4 div
+{
+    background-image: url('../img/circle_100.svg');
+}
+/* Show outline - HACK - divs vanish if we don't have an outline */
+.slice
+{
+    outline: solid 1px transparent;
+}
+.slice div
+{
+    display: block;
+    width: 200%;
+    height: 200%;
+    -moz-box-shadow: 0 0 .1em black;
+    -webkit-box-shadow: 0 0 .1em black;
+    box-shadow: 0 0 .1em black;
+    color: transparent;
+    font-size: .8em;
+    line-height: 1.9;
+    text-align: center;
+    text-decoration: none;
+}
+.q1, .q2, .q3, .q4
+{
+    visibility: hidden;
+}
+/* Width of this square calculated from radius of circle: sqrt((r * 2)^2 / 2) */
+.dialText
+{
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+    margin-top: -111px;
+}
+.dialText p
+{
+    margin: 0
+}
+.dialTitle
+{
+    font-size: 1.4em
+}
+.dialDesc
+{
+    font-size: .8em;
+    color: #6B6B6B
+}

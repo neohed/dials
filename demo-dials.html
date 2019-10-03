@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dials demo</title>
+    <link href="css/dials.css" rel="stylesheet" type="text/css" />
+    <style>
+        #d1, #d2, #d3 {
+            float: left
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="js/dials.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        var i1 = 'img/circle-2-0.svg',
+            i2 = 'img/circle-2-100.svg';
+
+        $('#d1').dial({
+            step: 3,
+            percentage: 82,
+            text: 'CURRENT<BR />PROJECT<BR />CAPACITY',
+            img_0: i1,
+            img_100: i2,
+            width: 240
+        });
+
+        $('#d2').dial({
+            step: 3,
+            percentage: 90,
+            text: 'PRODUCTIVITY',
+            img_0: i1,
+            img_100: i2,
+            width: 240
+        });
+
+        $('#d3').dial({
+            step: 3,
+            percentage: 66,
+            text: 'REPEAT<BR />BUSINESS',
+            img_0: i1,
+            img_100: i2,
+            width: 240
+        });
+
+    </script>
+</body>
+</html>

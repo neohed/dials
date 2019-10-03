@@ -1,0 +1,70 @@
+.circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.dial ul {
+    position: relative;
+    padding: 50%;
+    -moz-box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    box-shadow: 0 0 .5em rgba(0,0,0,.5);
+    list-style: none;
+    z-index: -1;
+    background-size: cover
+}
+.slice {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    -ms-transform-origin: 100% 100%;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    z-index: -1;
+}
+/* Show outline - HACK - divs vanish if we don't have an outline */
+.slice {
+    outline: solid 1px transparent;
+    z-index: -1;
+}
+.slice div {
+    display: block;
+    width: 200%;
+    height: 200%;
+    -moz-box-shadow: 0 0 .1em black;
+    -webkit-box-shadow: 0 0 .1em black;
+    box-shadow: 0 0 .1em black;
+    color: transparent;
+    font-size: .8em;
+    line-height: 1.9;
+    text-align: center;
+    text-decoration: none;
+    z-index: -1;
+}
+.q1 div, .q2 div, .q3 div, .q4 div {
+    background-size: cover
+}
+.q1, .q2, .q3, .q4 {
+    visibility: hidden;
+    z-index: -1;
+}
+.dialText {
+    text-align: center;
+    z-index: 10;
+}
+.dialText p {
+    margin: 0;
+    z-index: 10;
+}
+.dialTitle {
+    font-size: 1.4em;
+    z-index: 10;
+}
+.dialDesc {
+    font-size: .8em;
+    color: #6B6B6B;
+    z-index: 10;
+}

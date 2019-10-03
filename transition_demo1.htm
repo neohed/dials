@@ -1,0 +1,82 @@
+﻿<!DOCTYPE>
+<html>
+<head>
+    <!--
+        This worked for dials because it didn't matter if the circular image was rotated - it made no difference
+        as it was symetrical across the x and y axes.
+
+       But, when trying to use images for transitions the asymetric image and rectangular shape matter.  I think
+       I'll need to use a further inner layer with the background image and rotate that!
+     -->
+    <title></title>
+    <link href="css/dials.css" rel="stylesheet" type="text/css" />
+    <style>
+        .dial
+        {
+            width: 500px;
+        }
+        .dial ul
+        {
+            background: transparent url('img/pic01.jpg') no-repeat
+        }
+        .q1 div
+        {
+            
+        }
+        .q1 div.pic
+        {
+            border: 1px solid black;
+            background-image: url('img/pic02.jpg');
+            background-position: 250px 0;
+            /* These are overridden by the JavaScript if placed in .d1 div */
+            /* As I thought rotating these back causes a skewing issue making the div go outside the bounds of the circle. */
+            
+            -webkit-transform: rotate(180deg) skewX(-90deg);  /* Chrome, Safari 3.1+ */
+             -moz-transform:  rotate(180deg) skewX(-90deg);  /* Firefox 3.5-15 */
+              -ms-transform:  rotate(180deg) skewX(-90deg);  /* IE 9 */
+               -o-transform: rotate(180deg) skewX(-90deg);  /* Opera 10.50-12.00 */
+                  transform:  rotate(180deg) skewX(-90deg);  /* Firefox 16+, IE 10+, Opera 12.10+ */
+        }
+        .q2 div, .q3 div
+        {
+            background-image: url('img/pic02.jpg');
+        }
+        .q4 div
+        {
+            background-image: url('img/pic02.jpg');
+            background-position: 250px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="dial1" class="dial">
+        <ul class='circle'>
+            <li class='q1 slice'>
+                <div class='circle'>
+                    <div class="pic"></div>
+                </div>
+            </li>
+            <li class='q2 slice'>
+                <div class='circle'>
+                </div>
+            </li>
+            <li class='q3 slice'>
+                <div class='circle'>
+                </div>
+            </li>
+            <li class='q4 slice'>
+                <div class='circle'>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="js/dials.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#dial1').dial({ percentage: 100, showProgress: false });
+        });
+    </script>
+</body>
+</html>
